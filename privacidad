@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de privacidad · Aurora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&display=swap" rel="stylesheet">
+<style>
+:root{--n:#1E2A3A;--ns:#4A5568;--c:#F26D6A;--cd:#D94F4C;--g:#D4AF37;--ch:#F1E6D6;--iv:#FAF7F2;--w:#fff;--ln:rgba(30,42,58,.10);--d:"Cormorant Garamond",Georgia,serif;--b:"Nunito Sans",-apple-system,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--b);color:var(--n);background:var(--iv);line-height:1.7;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}a{color:var(--c);text-decoration:none}
+.w{max-width:680px;margin:0 auto;padding:0 24px}
+.nav{position:sticky;top:0;z-index:100;background:rgba(250,247,242,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--ln)}
+.ni{max-width:1020px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+.nl{height:32px}
+.nc{background:var(--c);color:var(--w)!important;padding:9px 20px;border-radius:100px;font-size:.82rem;font-weight:700}
+.ki{font-size:.7rem;letter-spacing:.28em;text-transform:uppercase;color:var(--c);font-weight:700;margin-bottom:12px;text-align:center}
+h1{font-family:var(--d);font-weight:500;font-size:clamp(1.8rem,4.5vw,2.6rem);line-height:1.15;text-align:center;margin-bottom:8px}
+.subtitle{text-align:center;color:var(--ns);font-size:.92rem;margin-bottom:40px}
+h2{font-family:var(--d);font-weight:600;font-size:1.35rem;margin-top:36px;margin-bottom:14px;color:var(--n)}
+h3{font-family:var(--d);font-weight:600;font-size:1.1rem;margin-top:18px;margin-bottom:8px;color:var(--n)}
+p{font-size:.95rem;color:var(--ns);margin-bottom:14px}
+ul{margin:0 0 14px 20px}li{font-size:.93rem;color:var(--ns);margin-bottom:8px}
+strong{color:var(--n);font-weight:700}
+.box{background:var(--ch);border-radius:16px;padding:24px;margin-top:30px}
+.box p{margin-bottom:8px;font-size:.92rem}
+.legal-id{background:var(--w);border:1px solid var(--ln);border-radius:12px;padding:20px;margin:20px 0;font-size:.9rem;color:var(--ns)}
+ft{display:block;text-align:center;padding:36px 0 44px;border-top:1px solid var(--ln);color:var(--ns);font-size:.8rem;margin-top:40px}
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="ni">
+<a href="index.html"><img class="nl" src="img/logo.png" alt="Aurora"></a>
+<a href="https://app.hablaconaurora.com" class="nc">Pruébala gratis</a>
+</div></nav>
+
+<div class="w" style="padding-top:50px">
+  <p class="ki">Legal</p>
+  <h1>Política de privacidad</h1>
+  <p class="subtitle">Última actualización: 20 de junio de 2026</p>
+
+  <div class="legal-id">
+    <p style="margin-bottom:6px"><strong>Responsable del tratamiento:</strong> Eva Jiménez Galán · Brighter-U</p>
+    <p style="margin-bottom:6px"><strong>CIF:</strong> [número de CIF]</p>
+    <p style="margin-bottom:6px"><strong>Domicilio:</strong> Paseo de Gracia, 12, 1º — 08007 Barcelona</p>
+    <p style="margin-bottom:6px"><strong>Correo electrónico:</strong> hola@hablaconaurora.com</p>
+    <p style="margin-bottom:0"><strong>Actividad:</strong> Prestación de un servicio de claridad relacional mediante inteligencia artificial, bajo supervisión clínica profesional.</p>
+  </div>
+
+  <h2>1. Quién es el responsable del tratamiento</h2>
+  <p>Aurora es un servicio ofrecido por Brighter-U, empresa fundada y dirigida por la Dra. Eva Jiménez, con domicilio en Paseo de Gracia, 12, 1º, 08007 Barcelona. Brighter-U es la entidad responsable del tratamiento de tus datos personales conforme al artículo 4.7 del Reglamento General de Protección de Datos (RGPD) (UE) 2016/679.</p>
+
+  <h2>2. Qué datos recogemos</h2>
+
+  <h3>2.1. Datos de registro</h3>
+  <p>Tu dirección de correo electrónico y una contraseña encriptada.</p>
+
+  <h3>2.2. Contenido de tus conversaciones</h3>
+  <p>Lo que escribes a Aurora se almacena para poder ofrecerte continuidad entre sesiones. Aurora utiliza este contenido exclusivamente para recordar el contexto de lo que has hablado y acompañarte de forma coherente. Ninguna persona accede a este contenido con fines comerciales, publicitarios, de investigación ni de evaluación.</p>
+
+  <h3>2.3. Datos de pago</h3>
+  <p>Si te suscribes a un plan de pago, la gestión del cobro la realiza nuestra plataforma de pagos. Aurora no almacena números de tarjeta, fechas de caducidad ni códigos de seguridad.</p>
+
+  <h3>2.4. Datos técnicos</h3>
+  <p>Dirección IP, tipo de navegador y dispositivo, exclusivamente para garantizar la seguridad del servicio y resolver incidencias técnicas. No utilizamos estos datos para crear perfiles ni para publicidad.</p>
+
+  <h2>3. Base legal del tratamiento</h2>
+  <p>Conforme al artículo 6 del RGPD, la base legal para cada tratamiento es:</p>
+  <ul>
+    <li><strong>Ejecución del contrato</strong> (art. 6.1.b): el tratamiento de tus datos de registro y del contenido de tus conversaciones es necesario para prestarte el servicio que has contratado o solicitado en período de prueba.</li>
+    <li><strong>Interés legítimo</strong> (art. 6.1.f): el tratamiento de datos técnicos para garantizar la seguridad y el funcionamiento correcto del servicio.</li>
+    <li><strong>Consentimiento</strong> (art. 6.1.a): para el envío de comunicaciones informativas sobre el estado de tu cuenta o tu suscripción. Puedes retirar este consentimiento en cualquier momento.</li>
+    <li><strong>Obligación legal</strong> (art. 6.1.c): cuando sea necesario para cumplir con obligaciones legales o requerimientos de autoridades competentes.</li>
+  </ul>
+
+  <h2>4. Dónde se almacenan tus datos</h2>
+  <p><strong>Todos tus datos se almacenan en servidores ubicados dentro de la Unión Europea.</strong> Concretamente, utilizamos infraestructura alojada en centros de datos en Europa (Ámsterdam, Países Bajos, y Frankfurt, Alemania). No realizamos transferencias internacionales de datos fuera del Espacio Económico Europeo (EEE).</p>
+
+  <h2>5. Confidencialidad de tus conversaciones</h2>
+  <p>El contenido de lo que hablas con Aurora es estrictamente confidencial. Se almacena de forma encriptada y se utiliza únicamente para ofrecer continuidad y coherencia en las sesiones. Ninguna persona — ni la creadora de Aurora ni ningún empleado o colaborador — lee, revisa ni analiza el contenido de tus conversaciones.</p>
+  <p><strong>Puedes borrar tu historial completo de conversaciones en cualquier momento</strong>, directamente desde tu cuenta o poniéndote en contacto con nosotros. Una vez borrado, el contenido se elimina de forma definitiva de nuestros servidores.</p>
+
+  <h2>6. Cuánto tiempo conservamos tus datos</h2>
+  <ul>
+    <li><strong>Datos de registro y conversaciones:</strong> mientras tu cuenta esté activa. Si cancelas tu suscripción y no vuelves a usar el servicio, tus datos se eliminarán transcurridos 12 meses desde la cancelación, salvo que solicites su eliminación inmediata.</li>
+    <li><strong>Datos de pago:</strong> el tiempo que exija la legislación fiscal y mercantil vigente (actualmente 5 años conforme al Código de Comercio).</li>
+    <li><strong>Datos técnicos:</strong> un máximo de 90 días, exclusivamente para resolución de incidencias.</li>
+  </ul>
+
+  <h2>7. Medidas de seguridad</h2>
+  <p>Aplicamos medidas técnicas y organizativas adecuadas para proteger tus datos personales, incluyendo:</p>
+  <ul>
+    <li>Encriptación de las conversaciones en tránsito (TLS/SSL) y en reposo.</li>
+    <li>Contraseñas almacenadas con hash criptográfico, nunca en texto plano.</li>
+    <li>Acceso restringido a la infraestructura del servidor.</li>
+    <li>Copias de seguridad encriptadas con acceso limitado.</li>
+    <li>Revisión periódica de las medidas de seguridad.</li>
+  </ul>
+
+  <h2>8. Cookies</h2>
+  <p>Aurora utiliza exclusivamente <strong>cookies técnicas esenciales</strong> necesarias para que el servicio funcione correctamente, como mantener tu sesión iniciada. No utilizamos cookies de análisis, de publicidad ni de seguimiento de terceros. Al no utilizar cookies no esenciales, no es necesario recabar tu consentimiento previo para su uso conforme al artículo 22.2 de la LSSI.</p>
+
+  <h2>9. Con quién compartimos tus datos</h2>
+  <p>No vendemos, cedemos ni compartimos tus datos personales con terceros con fines comerciales ni publicitarios. Únicamente compartimos datos con los siguientes encargados del tratamiento, necesarios para la prestación del servicio:</p>
+  <ul>
+    <li><strong>Proveedor de alojamiento</strong> (servidores y base de datos): infraestructura dentro de la UE.</li>
+    <li><strong>Proveedor de procesamiento de lenguaje</strong> (modelo de inteligencia artificial): para generar las respuestas de Aurora. El contenido se envía de forma encriptada y no se utiliza para entrenar modelos ni para ningún fin distinto de generar la respuesta.</li>
+    <li><strong>Plataforma de gestión de pagos:</strong> exclusivamente para procesar cobros de suscripciones.</li>
+  </ul>
+  <p>Todos los encargados del tratamiento han suscrito los correspondientes acuerdos de protección de datos conforme al artículo 28 del RGPD.</p>
+
+  <h2>10. Tus derechos</h2>
+  <p>Conforme al RGPD y a la LOPDGDD, tienes derecho a:</p>
+  <ul>
+    <li><strong>Acceso:</strong> solicitar una copia de tus datos personales.</li>
+    <li><strong>Rectificación:</strong> corregir datos inexactos.</li>
+    <li><strong>Supresión:</strong> solicitar la eliminación de tus datos, incluido tu historial de conversaciones.</li>
+    <li><strong>Limitación:</strong> solicitar que restrinjamos el tratamiento en determinados supuestos.</li>
+    <li><strong>Portabilidad:</strong> recibir tus datos en un formato estructurado y de uso común.</li>
+    <li><strong>Oposición:</strong> oponerte al tratamiento de tus datos en determinadas circunstancias.</li>
+  </ul>
+  <p>Para ejercer cualquiera de estos derechos, escríbenos a <strong>hola@hablaconaurora.com</strong>. Responderemos en un plazo máximo de 30 días.</p>
+  <p>Asimismo, si consideras que el tratamiento de tus datos vulnera tus derechos, puedes presentar una reclamación ante la <strong>Agencia Española de Protección de Datos</strong> (AEPD), con sede en C/ Jorge Juan, 6, 28001 Madrid, a través de su sede electrónica: <a href="https://www.aepd.es">www.aepd.es</a>.</p>
+
+  <h2>11. Menores de edad</h2>
+  <p>Aurora no está dirigido a menores de 16 años. No recogemos conscientemente datos de personas menores de esa edad. Si tienes conocimiento de que un menor ha proporcionado datos personales, ponte en contacto con nosotros para proceder a su eliminación inmediata.</p>
+
+  <h2>12. Cambios en esta política</h2>
+  <p>Podemos actualizar esta política para reflejar cambios en nuestras prácticas o en la normativa vigente. Si realizamos cambios sustanciales, te notificaremos a través del correo electrónico vinculado a tu cuenta antes de que entren en vigor. La fecha de última actualización aparece al inicio de este documento.</p>
+
+  <div class="box">
+    <h2 style="margin-top:0">Contacto</h2>
+    <p><strong>Correo electrónico:</strong> hola@hablaconaurora.com</p>
+    <p><strong>Responsable:</strong> Dra. Eva Jiménez · Brighter-U</p>
+    <p><strong>Dirección postal:</strong> Paseo de Gracia, 12, 1º — 08007 Barcelona</p>
+  </div>
+
+  <p style="margin-top:30px">En Aurora nos comprometemos a tratar tu información con el máximo rigor y transparencia, alineando nuestras prácticas con los principios éticos del ejercicio de la psicología y con la normativa europea de protección de datos.</p>
+</div>
+
+<ft><div class="w">
+  <p><a href="index.html">← Volver a Aurora</a></p>
+  <p style="margin-top:10px;font-size:.72rem">© 2026 Aurora · Brighter-U · Dra. Eva Jiménez</p>
+</div></ft>
+
+</body></html>
