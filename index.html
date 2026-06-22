@@ -86,6 +86,13 @@ h3{font-family:var(--d);font-weight:600;font-size:1.25rem;margin-bottom:8px}
 .pp{font-size:.8rem;font-weight:600;color:var(--ns);text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px}.pa{font-family:var(--d);font-size:2.5rem;font-weight:700;color:var(--n);line-height:1}.pa small{font-size:.88rem;font-weight:400;color:var(--ns)}.pe{font-size:.78rem;color:var(--ns);margin:6px 0 16px}.pc .btn{width:100%;padding:12px;font-size:.88rem}
 @media(max-width:480px){.pg{grid-template-columns:1fr}}
 
+/* PLAN TABS */
+.plan-tabs{display:flex;background:rgba(30,42,58,.06);border-radius:100px;padding:4px;max-width:280px;margin:0 auto 24px}
+.plan-tab{flex:1;border:none;background:transparent;font-family:var(--b);font-size:.88rem;font-weight:600;color:var(--ns);padding:10px 0;border-radius:100px;cursor:pointer;transition:all .25s ease}
+.plan-tab.active{background:var(--w);color:var(--n);box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.plan-group{display:none}.plan-group.active{display:block}
+.plan-desc{font-size:.92rem;color:var(--ns);margin-bottom:20px}
+
 /* FAQ */
 .fl{max-width:620px;margin:20px auto 0}.fi2{border-bottom:1px solid var(--ln);padding:16px 0}.fq{font-family:var(--d);font-size:1.15rem;font-weight:600;color:var(--n);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:14px;transition:color var(--t)}.fq:hover{color:var(--c)}.fq::after{content:"+";font-size:1.3rem;color:var(--c);transition:transform var(--t);flex:none}.fi2.open .fq::after{transform:rotate(45deg)}.fa{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .4s ease}.fi2.open .fa{max-height:500px;padding-top:10px}.fa p{font-size:.92rem;color:var(--ns)}
 
@@ -237,10 +244,31 @@ ft{display:block;text-align:center;padding:36px 0 44px;border-top:1px solid var(
 <sec class="ww" id="precios">
   <p class="ki ce rv">Precios</p>
   <h2 class="ce rv">Un espacio propio por menos que una <em>sesión</em></h2>
-  <div class="pg rv">
-    <div class="pc"><div class="pp">Mensual</div><div class="pa">24,90€<small>/mes</small></div><div class="pe">Flexibilidad total</div><a href="https://app.hablaconaurora.com" class="btn bo" style="width:100%">Pruébala 3 días gratis</a><span class="bn">Sin tarjeta</span></div>
-    <div class="pc ft"><div class="pb">Más elegido</div><div class="pp">Trimestral</div><div class="pa">59,90€<small>/3 meses</small></div><div class="pe">19,97€/mes · Ahorras un 20%</div><a href="https://app.hablaconaurora.com" class="btn" style="width:100%">Pruébala 3 días gratis</a><span class="bn">Sin tarjeta</span></div>
-    <div class="pc"><div class="pb" style="background:var(--g)">Precio fundador durante el lanzamiento</div><div class="pp">Anual</div><div class="pa">149€<small>/año</small></div><div class="pe">12,42€/mes · Ahorras un 50%</div><a href="https://app.hablaconaurora.com" class="btn bo" style="width:100%">Pruébala 3 días gratis</a><span class="bn">Sin tarjeta</span></div>
+
+  <!-- Tabs -->
+  <div class="plan-tabs rv">
+    <button class="plan-tab active" onclick="switchPlan('individual')">Individual</button>
+    <button class="plan-tab" onclick="switchPlan('pareja')">Pareja</button>
+  </div>
+
+  <!-- Individual -->
+  <div class="plan-group active" id="plan-individual">
+    <p class="plan-desc ce rv">Tu espacio personal para mirar la relación con más claridad.</p>
+    <div class="pg rv">
+      <div class="pc"><div class="pp">Mensual</div><div class="pa">24,90€<small>/mes</small></div><div class="pe">Sin permanencia.</div><a href="https://app.hablaconaurora.com" class="btn bo" style="width:100%">Pruébala 3 días gratis</a><span class="bn">Sin tarjeta</span></div>
+      <div class="pc"><div class="pp">Trimestral</div><div class="pa">59,90€<small>/3 meses</small></div><div class="pe">Ahorra un 20%.</div><a href="https://app.hablaconaurora.com" class="btn bo" style="width:100%">Pruébala 3 días gratis</a><span class="bn">Sin tarjeta</span></div>
+      <div class="pc ft"><div class="pb">Solo durante el lanzamiento</div><div class="pp">Anual</div><div class="pa">149€<small>/año</small></div><div class="pe">El mejor precio.</div><a href="https://app.hablaconaurora.com" class="btn" style="width:100%">Pruébala 3 días gratis</a><span class="bn">Sin tarjeta</span></div>
+    </div>
+  </div>
+
+  <!-- Pareja -->
+  <div class="plan-group" id="plan-pareja">
+    <p class="plan-desc ce rv">Dos cuentas privadas. Cada persona conserva su propio espacio.</p>
+    <div class="pg rv">
+      <div class="pc"><div class="pp">Mensual</div><div class="pa">34,90€<small>/mes</small></div><div class="pe">Dos cuentas independientes.</div><a href="https://app.hablaconaurora.com" class="btn bo" style="width:100%">Pruébala 3 días gratis</a><span class="bn">Sin tarjeta</span></div>
+      <div class="pc"><div class="pp">Trimestral</div><div class="pa">79€<small>/3 meses</small></div><div class="pe">Ahorra un 25%.</div><a href="https://app.hablaconaurora.com" class="btn bo" style="width:100%">Pruébala 3 días gratis</a><span class="bn">Sin tarjeta</span></div>
+      <div class="pc ft"><div class="pb">Solo durante el lanzamiento</div><div class="pp">Anual</div><div class="pa">199€<small>/año</small></div><div class="pe">El mejor precio.</div><a href="https://app.hablaconaurora.com" class="btn" style="width:100%">Pruébala 3 días gratis</a><span class="bn">Sin tarjeta</span></div>
+    </div>
   </div>
 </sec>
 
@@ -252,9 +280,12 @@ ft{display:block;text-align:center;padding:36px 0 44px;border-top:1px solid var(
   <h2 class="ce rv">Todo lo que necesitas <em>saber</em></h2>
   <div class="fl">
     <div class="fi2"><div class="fq">¿Aurora es terapia?</div><div class="fa"><p>No. Aurora es una herramienta de claridad relacional. Puede ayudarte a entender lo que sientes, reconocer patrones y prepararte para una conversación con tu pareja o con un profesional. Pero no sustituye un proceso terapéutico.</p></div></div>
-    <div class="fi2"><div class="fq">¿Es para usarlo sola/o o en pareja?</div><div class="fa"><p>Aurora es un espacio individual para trabajar temas de tu relación. Pero si prefieres, también puedes usarlo con tu pareja al lado — algunas personas lo encuentran útil como punto de partida para una conversación.</p></div></div>
+    <div class="fi2"><div class="fq">¿Es solo para temas de pareja?</div><div class="fa"><p>No. Puedes hablar de tu relación, pero también de una etapa difícil, un duelo, una decisión que pesa o algo personal que necesitas ordenar. Cómo estás tú afecta directamente a cómo te relacionas.</p></div></div>
+    <div class="fi2"><div class="fq">¿Es para usarlo sola/o o en pareja?</div><div class="fa"><p>Aurora es un espacio individual. Tus sesiones, resúmenes y sugerencias son privados. Si tu pareja también quiere usarla, el plan Pareja incluye dos cuentas personales independientes — cada persona en su propio móvil, con su propio espacio. Compartir en pareja lo que cada uno va extrayendo de sus sesiones os ayudará a conseguir más intimidad y conexión. </p></div></div>
+    <div class="fi2"><div class="fq">¿Qué incluye el plan Pareja?</div><div class="fa"><p>Dos cuentas completamente privadas bajo una sola suscripción. Cada persona conserva sus sesiones y resúmenes en su propio espacio. Nadie ve las conversaciones del otro. Es como tener dos Auroras individuales, pero pagando menos.</p></div></div>
     <div class="fi2"><div class="fq">¿Funciona si mi pareja no quiere participar?</div><div class="fa"><p>Precisamente para eso está diseñada. Muchas personas vienen porque su pareja no quiere hacer terapia o hablar de ciertas cosas. Trabajar tu parte ya cambia la dinámica.</p></div></div>
-    <div class="fi2"><div class="fq">¿Mis conversaciones son privadas?</div><div class="fa"><p>Completamente. Nadie accede a tus conversaciones excepto tú. Los datos se guardan con encriptación y no se comparten con terceros. Puedes borrar tu historial en cualquier momento.</p></div></div>
+    <div class="fi2"><div class="fq">¿Mis conversaciones son privadas?</div><div class="fa"><p>Completamente. Nadie accede a tus conversaciones excepto tú — ni siquiera tu pareja en el plan Pareja. Los datos se guardan con encriptación y no se comparten con terceros. Puedes borrar tu historial en cualquier momento.</p></div></div>
+    <div class="fi2"><div class="fq">¿Puedo usar el micrófono?</div><div class="fa"><p>Sí. Puedes escribir o usar el micrófono si tu dispositivo lo permite. Aurora responde siempre en texto, para que puedas releer lo que te ha devuelto con calma.</p></div></div>
     <div class="fi2"><div class="fq">¿En qué se diferencia de ChatGPT?</div><div class="fa"><p>ChatGPT es un asistente genérico. Aurora está diseñada específicamente para el trabajo relacional, con una voz clínica creada por una psicóloga de pareja con más de 20 años de experiencia. La diferencia está en cómo escucha, qué pregunta y cuándo calla.</p></div></div>
     <div class="fi2"><div class="fq">¿En qué idiomas puedo usar Aurora?</div><div class="fa"><p>En cualquier idioma. Español, catalán, inglés, francés, italiano, alemán, euskera, gallego, portugués, sueco... y muchos más. Simplemente escríbele en tu lengua y Aurora se adaptará.</p></div></div>
     <div class="fi2"><div class="fq">¿Puedo cancelar en cualquier momento?</div><div class="fa"><p>Sí. Sin permanencia, sin preguntas, sin procesos complicados. Cancelas y tu suscripción se mantiene activa hasta el final del período pagado.</p></div></div>
@@ -298,11 +329,19 @@ document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
 // FAQ
 document.querySelectorAll('.fq').forEach(q=>q.addEventListener('click',()=>q.parentElement.classList.toggle('open')));
 
+// Plan tabs
+function switchPlan(plan){
+  document.querySelectorAll('.plan-tab').forEach(t=>t.classList.remove('active'));
+  event.currentTarget.classList.add('active');
+  document.querySelectorAll('.plan-group').forEach(g=>g.classList.remove('active'));
+  document.getElementById('plan-'+plan).classList.add('active');
+}
+
 // Typing animation
 const phrases=[
   "No sé cómo decirle que me siento sola...",
   "Ayer discutimos otra vez por lo mismo",
-  "Siento que mi pareja está ahí pero no está",
+  "Me gustaría sentir más conexión emocional",
   "A veces me pregunto si lo que siento es normal",
   "No sé si es un problema o soy yo que exagero",
   "Quiero hablar pero no sé por dónde empezar"
